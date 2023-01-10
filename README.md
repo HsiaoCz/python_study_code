@@ -20,7 +20,7 @@ python里的标识符遵循一定的命名规则
 关键字由语言本身定义好的有特殊含义的代码元素
 python中有33个关键字 其中False、True、None首字母大写，其他关键字首字母小写
 
-![image-20230110153913477](C:\Users\xiaochengzhou\AppData\Roaming\Typora\typora-user-images\image-20230110153913477.png)
+![image-20230110153913477](images\image-20230110153913477.png)
 
 ### 1.3、变量
 
