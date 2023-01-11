@@ -3,8 +3,8 @@
 # 逻辑或 or | 有一个为真则为真
 # 逻辑与 and & 都为真才为真
 # 结果为布尔值
-a=True
-b=False
+a = True
+b = False
 print(a and b)
 print(a or b)
 print(not a)
