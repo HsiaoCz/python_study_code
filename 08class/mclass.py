@@ -39,5 +39,6 @@ print(stu1.age)
 
 # 也可以这样调用hello
 Hello.hello(stu1)
-# 属性对所有的对象享
+# 属性对所有的对象共享
+
 
