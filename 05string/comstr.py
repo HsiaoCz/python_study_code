@@ -5,8 +5,8 @@
 # 字符串后面的字符将不再比较
 # 比较的原理：两个字符进行比较时，比较的是其ordinal value(原始值)，调用内置函数ord可以得到指定的字符原始值
 # 调用char()指定原始值 可以获得对应的字符
-print("apple">"app") 
-print("apple">"banana")
+print("apple" > "app")
+print("apple" > "banana")
 print(ord("a"))
 print(ord("b"))
 print(chr(98))

@@ -1,10 +1,10 @@
 # 字符串的驻留机制
-a="python"
-b="Hello"
-c="python"
-print(a,id(a))
-print(c,id(c))
-print(b,id(b))
+a = "python"
+b = "Hello"
+c = "python"
+print(a, id(a))
+print(c, id(c))
+print(b, id(b))
 # 不同的变量指向相同的字符串 指向的是相同内存地址相同
 # 所谓驻留机制 是对相同的字符串只保留一个
 # 不同的字符串被放在字符串的驻留池中
@@ -14,12 +14,12 @@ print(b,id(b))
 # 3.字符串只在编译时进行驻留，而非运行时
 # 4.[-5,256]之间的整数数字
 # sys中的intern方法强制两个字符串指向同i个对象
-aa="abc"
-bb="ab"+"c"
+aa = "abc"
+bb = "ab"+"c"
 print(aa is bb)
 # 这两个字符串是相同的
 # 但是
-cc="".join(["ab","c"])
+cc = "".join(["ab", "c"])
 print(aa is cc)
 # 这时候就不是了 因为+操作 在运行之前已经连接完成了
 # 但是join操作在运行时才进行连接操作
@@ -27,4 +27,3 @@ print(aa is cc)
 # 字符串拼接 建议使用join方法
 
 # 字符串可以看作是字符的列表
-

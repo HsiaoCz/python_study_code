@@ -7,18 +7,22 @@
 # 递归的优点是代码简单，思路清晰
 # 缺点 极大的占用内存
 def fb(a):
-    if a==1 or a==2:
+    if a == 1 or a == 2:
         return 1
     return fb(a-1)+fb(a-2)
 
-result=fb(20)
+
+result = fb(20)
 print(result)
 
 # 计算阶乘
+
+
 def jieC(a):
-    if a==1:
+    if a == 1:
         return 1
     return a*jieC(a-1)
 
-re=jieC(10)
+
+re = jieC(10)
 print(re)

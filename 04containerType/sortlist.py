@@ -1,5 +1,5 @@
 # 列表排序
-l=[23,12,3,24,17,25,13]
+l = [23, 12, 3, 24, 17, 25, 13]
 print(l)
 l.sort()
 print(l)
@@ -12,7 +12,7 @@ l.sort(reverse=True)
 l.sort(reverse=False)
 
 # 使用内置函数sorted()对列表排序 将产生一个新序列
-newl=sorted(l,reverse=True)
+newl = sorted(l, reverse=True)
 print(newl)
-newl1=sorted(l,reverse=False)
+newl1 = sorted(l, reverse=False)
 print(newl1)

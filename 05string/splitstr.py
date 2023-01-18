@@ -3,9 +3,9 @@
 # 返回值是一个列表
 # 可以指定分隔符和最大分割次数
 # rsplit() 从字符串的右边开始分割
-s="Hello world python"
+s = "Hello world python"
 print(s.split())
-s1="Hello|Hi|world"
-print(s1.split(sep="|",maxsplit=1))
+s1 = "Hello|Hi|world"
+print(s1.split(sep="|", maxsplit=1))
 # rsplit() 从右边开始分割
-print(s1.rsplit(sep="|",maxsplit=2))
+print(s1.rsplit(sep="|", maxsplit=2))

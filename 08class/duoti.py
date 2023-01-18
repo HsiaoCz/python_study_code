@@ -5,26 +5,34 @@ class Animal:
     def eat(self):
         print("动物会吃")
 
+
 class Dog(Animal):
     def eat(self):
         print("狗吃骨头")
 
+
 class Cat(Animal):
     def eat(self):
         print("猫吃小鱼")
-        
+
 # 定义一个函数
+
+
 def fun(obj):
     obj.eat()
-    
+
+
 # 开始调用函数
 fun(Cat())
 fun(Dog())
 fun(Animal())
 # 多态 在go语言里 使用interface来实现
 # 鸭子类型
+
+
 class Persion:
     def eat(self):
         print("人吃牛排")
+
 
 fun(Persion())

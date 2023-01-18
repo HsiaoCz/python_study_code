@@ -4,11 +4,14 @@
 # __str__()函数经常用于print()方法，帮助我们查看对象的信息
 # 所有经常重写此方法
 class Student:
-     def __init__(self,name,age) -> None:
-          self.name=name
-          self.age=age
-     def __str__(self):
-         return "我叫{0},今年{1}".format(self.name,self.age)
-stu=Student
+    def __init__(self, name, age) -> None:
+        self.name = name
+        self.age = age
+
+    def __str__(self):
+        return "我叫{0},今年{1}".format(self.name, self.age)
+
+
+stu = Student
 print(dir(stu))
 # print(stu.__str__())
