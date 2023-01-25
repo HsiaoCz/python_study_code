@@ -485,3 +485,45 @@ splitext()    分离文件和扩展名
 basename(path) 从一个目录中提取文件名
 dirname(path) 从一个路径中提取文件路径，不包括文件名
 isdir(path)  用于判断是否为路径
+
+## 11、lambda表达式
+
+lambda函数也叫匿名函数，它直接接收参数的数量以及使用该参数执行的条件或操作，该参数以冒号分隔，并返回最终结果，主要用于在大型代码库中执行一段小任务
+lambda argument_list:expersion
+argument_list是参数列表，它的结构与python中函数的参数列表是一样的
+
+```python
+a,b
+a=1,b=2
+*args
+**kwargs
+a,b=1,*args
+空
+....
+```
+
+expression 是一个关于参数的表达式，表达式中出现的参数需要在 argument_list中有定义，并且表达式只能是单行的
+
+```python
+1
+None
+a+b
+sum(a)
+1 if a >10 else 0
+[i for i in range(10)]
+```
+
+lambda函数有这样一些特点:
+1、没有名称
+2、lambda函数没有返回值
+3、函数在一行编写
+4、不能重用代码
+
+## 12、python socket编程
+
+Python 提供了两种类型的 API 库，可用于socket编程。在底层，Python 利用“ socket ”library为无连接和面向连接的网络协议实现客户端和服务器模块。而在更高级别，您可以使用ftplib和httplib等库 与应用程序级网络协议（如 FTP 和 HTTP）交互。
+
+python socket使用socket库
+socket是双向通信链路的端点，端点是IP地址和端口号的组合
+对于client-server通信，需要在两端配置socket来发起连接，监听传入的消息，然后在两端发送响应，从而建立双向通信
+socket允许位于同一台机器之上的两个进程进行通信，或者是不同的机器或者不同大陆的机器
