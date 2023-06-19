@@ -10,9 +10,10 @@ def application(request, response):
     # 访问路径
     path = request["PATH_INFO"]
     print(path)
-    
+
     return [b"<h1>hello world</h1>"]
 
+
 # 启动服务器
-httpd=make_server("127.0.0.1",9091,application)
+httpd = make_server("127.0.0.1", 9091, application)
 httpd.serve_forever()
