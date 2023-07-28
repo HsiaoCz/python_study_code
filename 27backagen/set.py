@@ -27,3 +27,14 @@ s.discard(122)
 s.pop()
 
 # 使用clear() 清空集合中的元素
+ss = {1, 12, 13, 4, 9, 7, 8}
+# 使用reverse进行排序
+# reverse=true 按照降序排序
+ss.sort(reverse=True)
+ss.sort(reverse=False)
+
+# 使用内置函数sorted()对列表排序，将产生一个新序列
+new1 = sorted(ss, reverse=True)
+print(new1)
+new22 = sorted(ss, reverse=False)
+print(new22)
