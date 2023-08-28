@@ -1,0 +1,14 @@
+# reduce函数可以使各元素按顺序计算，每次计算的结果也会参与到下次计算中
+
+import functools
+
+a = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+# 计算累乘
+
+
+def mul(x1, x2):
+    return x1*x2
+
+
+print(functools.reduce(mul, a))
