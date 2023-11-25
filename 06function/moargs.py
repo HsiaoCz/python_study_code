@@ -52,5 +52,6 @@ hell(a=10, b=20, c=30)
 def h1(*a, **b):
     pass  # pass跳过 类似于go当中的_
 
+
 # def h2(**a,*b):
 #     pass
