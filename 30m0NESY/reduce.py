@@ -9,7 +9,7 @@ a = [1, 2, 3, 4, 5, 6]
 
 
 def mul(x1, x2):
-    return x1 * x2
+    return x1*x2
 
 
 print(functools.reduce(mul, a))
